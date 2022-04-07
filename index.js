@@ -12,3 +12,9 @@ document.writeln('curso = ' + curso+'<br>');
 document.writeln('dia = ' + dia +'<br>');
 document.writeln('horario = ' + horario +'<br>');
 document.writeln('plataforma = ' + plataforma +'<br>');
+
+document.getElementById('containter').innerHTML = 'curso = ' + curso+'<br>';
+document.getElementById('container').innerHTML += 'dia = ' + dia +'<br>';
+document.getElementById('container').innerHTML += 'horario = ' + horario +'<br>';
+document.getElementById('container').innerHTML += 'plataforma = ' + plataforma +'<br>';
+
